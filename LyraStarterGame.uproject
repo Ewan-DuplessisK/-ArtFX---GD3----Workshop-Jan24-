@@ -49,6 +49,13 @@
 			]
 		},
 		{
+			"Name": "HoudiniEngine",
+			"Enabled": false,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
 			"Name": "CommonLoadingScreen",
 			"Enabled": true
 		},
