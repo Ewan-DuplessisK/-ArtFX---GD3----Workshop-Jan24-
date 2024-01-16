@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "LyraClient Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraClient Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraClient Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraClient Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraClient Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraClient Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraClient Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraClient",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraGame",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraServer Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraServer Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraServer Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Development",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraServer Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Test",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LyraServer Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "LyraServer Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"LyraServer",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		}
+	]
+}

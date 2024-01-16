@@ -1,0 +1,312 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch LyraClient (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealClient-Win64-Debug.exe",
+			"preLaunchTask": "LyraClient Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraClient (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealClient-Win64-DebugGame.exe",
+			"preLaunchTask": "LyraClient Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraClient (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealClient.exe",
+			"preLaunchTask": "LyraClient Win64 Development Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraClient (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealClient-Win64-Test.exe",
+			"preLaunchTask": "LyraClient Win64 Test Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraClient (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealClient-Win64-Shipping.exe",
+			"preLaunchTask": "LyraClient Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraEditor (Debug)",
+			"request": "launch",
+			"program": "F:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "LyraEditor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject"
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraEditor (DebugGame)",
+			"request": "launch",
+			"program": "F:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "LyraEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject"
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraEditor (Development)",
+			"request": "launch",
+			"program": "F:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "LyraEditor Win64 Development Build",
+			"args": [
+				"C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject"
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraGame (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "LyraGame Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraGame (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "LyraGame Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraGame (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "LyraGame Win64 Development Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraGame (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "LyraGame Win64 Test Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraGame (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "LyraGame Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraServer (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealServer-Win64-Debug.exe",
+			"preLaunchTask": "LyraServer Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraServer (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealServer-Win64-DebugGame.exe",
+			"preLaunchTask": "LyraServer Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraServer (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealServer.exe",
+			"preLaunchTask": "LyraServer Win64 Development Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraServer (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealServer-Win64-Test.exe",
+			"preLaunchTask": "LyraServer Win64 Test Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch LyraServer (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\Binaries\\Win64\\UnrealServer-Win64-Shipping.exe",
+			"preLaunchTask": "LyraServer Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "F:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "F:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "F:\\UE_5.2\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\ewan3\\Documents\\GitHub\\LyraWS\\LyraStarterGame.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "F:\\UE_5.2"
+		}
+	]
+}
